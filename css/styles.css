@@ -45,16 +45,14 @@ body {
 .header{
     background-color: var(--background);
 }
-.logo{
+.logo-header{
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color:var(--second-title-color);
   }
-span{
-  color: var(--accent-color);
-}
 .header-studio{
 font-weight: 500;
 font-size: 14px;
@@ -130,15 +128,23 @@ color: var(--second-title-color);
 .footer{
     background-color: var(--footer-color)
 }
-.footer-logo{
+.logo-footer{
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--background);
+  }
+span{
+  color: var(--accent-color);
 }
 .footer-adres{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--background);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--background);
 }
 .footer-mail{
   font-weight: 400;
