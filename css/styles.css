@@ -1,13 +1,71 @@
-body {
-  font-family: "One Sans", sans-serif;
+:root {
+    
+    --background: #ffffff;
+    --background-elements: #F5F4FA;
+    --footer-color: #2F303A;
+    
+    --first-btn-color: #2196F3;
+    --second-btn-color:#188CE8;
+    
+    --accent-color: #2196F3;
+    --first-title-color: #ffffff;
+    --second-title-color: #212121;
+    --p-title-color: #757575;  
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Убирает точки в списках */
 .list {
   list-style: none;
 }
+
+/* Убирает нижнее подчеркивание всех ссылок */
 .link {
-  text-decoration: none;
+   text-decoration: none;
+   color:var(--second-title-color);
 }
-/* Селекторы */
-/* Селектор универсальный Звездочка*/
-/* Селектор тега */
-/* Селектор атрибута */
+.accent{
+  color: var(--accent-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+  /* ------------------HEADER------------------- */
+.header{
+    background-color: var(--background);
+}
+
+/* --------------------MAIN-------------------- */
+.main{
+  background-color: var(--background);
+}
+.hero {
+    background-color: var(--footer-color);
+}
+.occupation{
+    
+}
+
+/* ----------TEAM---------- */
+.team{
+    background-color: var(--background-elements);
+}
+
+/* --------------------FOOTER-------------------- */
+.footer{
+    background-color: var(--footer-color)
+}
