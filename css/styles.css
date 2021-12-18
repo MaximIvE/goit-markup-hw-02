@@ -48,6 +48,37 @@ body {
 .header{
     background-color: var(--background);
 }
+.logo{
+  font-family: Raleway;
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+span{
+  color: var(--accent-color);
+}
+.nav{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts{
+  color: var(--p-title-color);
+}
+.logo:hover,
+.logo:focus,
+.header-portfolio:hover,
+.header-portfolio:focus,
+.header-contacts:hover,
+.header-contacts:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent-color);
+}
 
 /* --------------------MAIN-------------------- */
 .main{
