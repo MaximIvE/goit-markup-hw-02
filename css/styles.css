@@ -1,8 +1,8 @@
 :root {
-    
     --background: #ffffff;
     --background-elements: #F5F4FA;
     --footer-color: #2F303A;
+    --footer-text: rgba(255, 255, 255, 0.6);
     
     --first-btn-color: #2196F3;
     --second-btn-color:#188CE8;
@@ -27,9 +27,6 @@ body {
    text-decoration: none;
    color: var(--second-title-color);
 }
-.accent{
-  color: var(--accent-color);
-}
 
 .visually-hidden {
   position: absolute;
@@ -50,22 +47,52 @@ body {
 }
 .logo{
   font-family: Raleway;
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
+  }
 span{
   color: var(--accent-color);
 }
-.nav{
+.header-studio{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color: var(--second-title-color);
+}
+.header-portfolio{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color: var(--second-title-color);
+}
+.header-contacts{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color: var(--second-title-color);
+}
+.header-mail{
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--p-title-color);  
 }
-.contacts{
-  color: var(--p-title-color);
+.header-tel{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--p-title-color);    
+}
+
+.accent{
+  color: var(--accent-color);
 }
 
 .logo:hover,
@@ -103,3 +130,36 @@ span{
 .footer{
     background-color: var(--footer-color)
 }
+.footer-logo{
+  color: var(--background);
+}
+.footer-adres{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--background);
+}
+.footer-mail{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-text);
+}
+.footer-tel{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-text);
+}
+.footer-adres:hover,
+.footer-adres:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--accent-color);
+}
+
