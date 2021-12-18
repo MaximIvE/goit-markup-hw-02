@@ -67,8 +67,11 @@ span{
 .contacts{
   color: var(--p-title-color);
 }
+
 .logo:hover,
 .logo:focus,
+.header-studio:hover,
+.header-studio:focus,
 .header-portfolio:hover,
 .header-portfolio:focus,
 .header-contacts:hover,
