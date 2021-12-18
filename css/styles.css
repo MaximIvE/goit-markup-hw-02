@@ -25,7 +25,7 @@ body {
 /* Убирает нижнее подчеркивание всех ссылок */
 .link {
    text-decoration: none;
-   color:var(--second-title-color);
+   color: var(--second-title-color);
 }
 .accent{
   color: var(--accent-color);
