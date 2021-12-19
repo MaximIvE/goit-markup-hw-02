@@ -3,11 +3,14 @@
     --background-elements: #F5F4FA;
     --footer-color: #2F303A;
     --footer-text: rgba(255, 255, 255, 0.6);
-    
+    --footer-hover-text-one: rgba(255, 255, 255, 0.8);
+    --footer-hover-text-two: rgba(255, 255, 255, 0.4);
+    --footer-hover-accent: rgba(33, 149, 243, 0.9);
     --first-btn-color: #2196F3;
     --second-btn-color:#188CE8;
     
     --accent-color: #2196F3;
+    
     --first-title-color: #ffffff;
     --second-title-color: #212121;
     --p-title-color: #757575;  
@@ -21,18 +24,16 @@ h2{
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--second-title-color);
+  
 }
 p{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--p-title-color);
-
-  /*   - для нижнего текста*/
 }
   /* Убирает точки в списках */
 .list {
@@ -109,7 +110,6 @@ color: var(--second-title-color);
 .accent{
   color: var(--accent-color);
 }
-
 .logo:hover,
 .logo:focus,
 .header-studio:hover,
@@ -124,18 +124,15 @@ color: var(--second-title-color);
 .header-tel:focus {
     color: var(--accent-color);
 }
-
 /* --------------------MAIN-------------------- */
 .main{
   background-color: var(--background);
 }
-
-
 .hero {
   background-color: var(--footer-color);
+  text-align: center;
 }
 .main-heading{
-  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -149,12 +146,13 @@ color: var(--second-title-color);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: 1px solid #2F303A; /* Параметры рамки */
   color: var(--background);
 }
 .hero-btn:hover{
   background: var(--second-btn-color);
 }
-
 .h3-cpecif{
   font-weight: 700;
   font-size: 14px;
@@ -175,8 +173,75 @@ color: var(--second-title-color);
   font-size: 16px;
   line-height: 1.19px;
   letter-spacing: 0.03em;    
+  text-align: center;
   color: var(--second-title-color)
 }
+.p-team{
+  text-align: center;
+}
+
+/* -----Portfolio----------- */
+.portfolio-buttons{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+  
+  
+}
+.btn-all{
+  background: var(--accent-color);
+  color: var(--background);
+  border: 0.5px solid #2F303A; /* Параметры рамки */
+  border-radius: 2px;
+}
+.btn-web{
+  border: 0.5px solid #2F303A; /* Параметры рамки */
+  border-radius: 2px;
+}
+.btn-applications{
+  border: 0.5px solid #2F303A; /* Параметры рамки */
+  border-radius: 2px;
+}
+.btn-design{
+  border: 0.5px solid #2F303A; /* Параметры рамки */
+  border-radius: 2px;
+}
+.btn-marketing{
+  border: 0.5px solid #2F303A; /* Параметры рамки */
+  border-radius: 2px;
+}
+.btn-all:hover,
+.btn-all:focus,
+.btn-web:hover,
+.btn-web:focus,
+.btn-applications:hover,
+.btn-applications:focus,
+.btn-design:hover,
+.btn-design:focus,
+.btn-marketing:hover,
+.btn-marketing:focus{
+  background-color: var(--first-btn-color);
+  border: 0.5px solid #2F303A; /* Параметры рамки */
+  border-radius: 2px;
+  color: var(--background);
+}
+.h3-portfolio{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+.p-portfolio{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--p-title-color);
+}
+
 
 /* --------------------FOOTER-------------------- */
 .footer{
@@ -215,11 +280,13 @@ span{
   color: var(--footer-text);
 }
 .footer-adres:hover,
-.footer-adres:focus,
+.footer-adres:focus{
+  color: var(--footer-hover-text-one);
+}
 .footer-mail:hover,
 .footer-mail:focus,
 .footer-tel:hover,
 .footer-tel:focus {
-    color: var(--accent-color);
+    color: var(--footer-hover-text-two);
 }
 
