@@ -213,19 +213,21 @@ color: var(--second-title-color);
   border-radius: 2px;
 }
 .btn-all:hover,
-.btn-all:focus,
 .btn-web:hover,
-.btn-web:focus,
 .btn-applications:hover,
-.btn-applications:focus,
 .btn-design:hover,
-.btn-design:focus,
-.btn-marketing:hover,
-.btn-marketing:focus{
-  background-color: var(--first-btn-color);
+.btn-marketing:hover{
+  background-color: var(--second-btn-color);
   border: 0.5px solid #2F303A; /* Параметры рамки */
   border-radius: 2px;
   color: var(--background);
+}
+.btn-all:focus,
+.btn-web:focus,
+.btn-applications:focus,
+.btn-design:focus,
+.btn-marketing:focus{
+  background-color: var(--first-btn-color);
 }
 .h3-portfolio{
   font-weight: 700;
