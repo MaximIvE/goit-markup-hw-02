@@ -16,7 +16,24 @@
 body {
     font-family: 'Roboto', sans-serif;
   }
+h2{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--p-title-color);
 
+  /*   - для нижнего текста*/
+}
   /* Убирает точки в списках */
 .list {
   list-style: none;
@@ -112,16 +129,53 @@ color: var(--second-title-color);
 .main{
   background-color: var(--background);
 }
+
+
 .hero {
-    background-color: var(--footer-color);
+  background-color: var(--footer-color);
 }
-.occupation{
-    
+.main-heading{
+  width: 696px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background);
+}
+.hero-btn{
+  background: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--background);
+}
+.hero-btn:hover{
+  background: var(--second-btn-color);
+}
+
+.h3-cpecif{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-title-color);
 }
 
 /* ----------TEAM---------- */
 .team{
-    background-color: var(--background-elements);
+  background-color: var(--background-elements);
+  font-size: 16px;
+  line-height: 1.19;
+}
+.h3-team{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;    
+  color: var(--second-title-color)
 }
 
 /* --------------------FOOTER-------------------- */
